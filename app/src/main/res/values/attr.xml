@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumericButton">
+        <attr name="numericValue" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="AdjustSizeTextView">
+        <attr name="minTextSize" format="string" />
+        <attr name="maxTextSize" format="string" />
+    </declare-styleable>
+</resources>

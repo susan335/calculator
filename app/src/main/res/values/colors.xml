@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796b</color>
+    <color name="colorAccent">#b2dfdb</color>
+
+    <color name="activityBackgroundColor">#050505</color>
+    <color name="normalButtonColor">#757575</color>
+    <color name="normalButtonPressedColor">#5A595B</color>
+    <color name="darkButtonColor">#616161</color>
+    <color name="darkButtonPressedColor">#424242</color>
+    <color name="textColor">#4FFF17</color>
+</resources>
