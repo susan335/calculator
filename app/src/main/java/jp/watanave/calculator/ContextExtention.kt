@@ -8,8 +8,12 @@ import android.widget.Toast
  * Created by Susan on 2016/01/31.
  */
 
-infix fun Context.showToast(message : CharSequence, length : Int) {
-    Toast.makeText(this, message, length).show()
+infix fun Context.showToastShort(message : CharSequence) {
+    Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+}
+
+infix fun Context.showToastLong(message : CharSequence) {
+    Toast.makeText(this, message, Toast.LENGTH_LONG).show()
 }
 
 infix fun Context.showDialog(message : CharSequence) {
